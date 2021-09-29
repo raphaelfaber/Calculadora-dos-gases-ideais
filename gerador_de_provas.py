@@ -7,6 +7,7 @@ tema4=('Tema4Questão1','Tema4Questão2','Tema4Questão3','Tema4Questão4','Tema
 tema5=('Tema5Questão1','Tema5Questão2','Tema5Questão3','Tema5Questão4','Tema5Questão5')
 temas = (tema1,tema2,tema3,tema4,tema5)
 
+print(f'Bem vindo(a)! você possuí {len(tema1+tema2+tema3+tema4+tema5)}  questões no seu banco de dados!')
 quantidade = int(input('Escolha a quantidade total de questões que você deseja colocar na sua prova: '))
 while quantidade > len(tema1+tema2+tema3+tema4+tema5):
     print(f'Seu banco de dados possuí no máximo  {len(tema1+tema2+tema3+tema4+tema5)} questões, por favor, selecione um valor entre 1 e {len(tema1+tema2+tema3+tema4+tema5)} ')
