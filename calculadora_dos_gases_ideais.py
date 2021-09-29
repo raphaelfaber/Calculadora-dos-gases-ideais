@@ -23,6 +23,7 @@ while True:
 			n = float(input('Digite o número de mols (n):   '))
 			t = float(input('Digite a temperatura(T) em kelvin:  '))
 			p = (n*r*t)/v
+			print('x' * 60)
 			print('A pressão nas condições inseridas é {} ATM'.format(p))
 		if var == 'v':
 			p = float(input('Digite a pressão (em ATM):  '))
